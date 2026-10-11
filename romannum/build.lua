@@ -16,8 +16,13 @@ typesetruns = 4
 typesetexe = "lualatex"
 
 announce = {}
+<<<<<<< Updated upstream
 announce["2026-10-07 v1.0c"] = [[
 Fix gh/46; tag documentation; new maintainer (LaTeX Project)
+=======
+announce[version] = [[
+Fix gh/46; tag documentation; new maintainer (LaTeX Project Team)
+>>>>>>> Stashed changes
 ]]
 
 uploadconfig = {
@@ -26,7 +31,7 @@ uploadconfig = {
   author       = "Peter R Wilson; LaTeX Project",
   license      = "lppl1.3c",
   summary      = "Generate roman numerals instead of arabic digits",
-  ctanPath     = "/macros/latex/contrib/romannum",
+  ctanPath     = "/macros/latex/contrib/"..module,
   repository   = "https://github.com/LaTeX-Package-Repositories/herries-press",
   bugtracker   = "https://github.com/LaTeX-Package-Repositories/herries-press/issues",
   uploader     = "LaTeX Project",

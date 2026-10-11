@@ -20,7 +20,7 @@ sourcefiles={"anonchap.sty"}
 -- Upload meta data
 
 announce = {}
-announce["2026-09-30 v1.2b"] = [[
+announce[version] = [[
 Adjust to use new heading templates with LaTeX 2026-11-01 release.
 ]]
 
@@ -31,7 +31,7 @@ uploadconfig = {
  author = "LaTeX Project",
  license = "lppl1.3c",
  summary = [[Provides commands to make \chapter typeset like \section.]],
- ctanPath = "/macros/latex/contrib/anonchap",
+ ctanPath = "/macros/latex/contrib/"..module,
  repository = "https://github.com/LaTeX-Package-Repositories/herries-press",
  bugtracker = "https://github.com/LaTeX-Package-Repositories/herries-press/issues",
  uploader = "LaTeX Project",

@@ -25,7 +25,7 @@ typesetexe="lualatex"
 -- Upload meta data
 
 announce = {}
-announce["2026-09-09 v2.0a"] = [[
+announce[version] = [[
 Update to support tagging
 ]]
 
@@ -36,7 +36,7 @@ uploadconfig = {
  author = "LaTeX Project",
  license = "lppl1.3c",
  summary = "Margin adjustment and detection of odd/even pages.",
- ctanPath = "/macros/latex/contrib/changepage",
+ ctanPath = "/macros/latex/contrib/"..module,
  repository = "https://github.com/LaTeX-Package-Repositories/herries-press",
  bugtracker = "https://github.com/LaTeX-Package-Repositories/herries-press/issues",
  uploader = "LaTeX Project",

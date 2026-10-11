@@ -17,7 +17,7 @@ typesetexe="lualatex"
 -- Upload meta data
 
 announce = {}
-announce["2026-06-01 v1.5l"] = [[
+announce[version] = [[
 Update to support for headings templates when \DocumentMetadata is used
 https://github.com/latex3/tagging-project/issues/1338
 ]]
@@ -29,7 +29,7 @@ uploadconfig = {
  author = "LaTeX Project",
  license = "lppl1.3c",
  summary = "Automatically adds the bibliography and/or the index and/or the contents, etc., to the Table of Contents listing.",
- ctanPath = "/macros/latex/contrib/tocbibind",
+ ctanPath = "/macros/latex/contrib/"..module,
  repository = "https://github.com/LaTeX-Package-Repositories/herries-press",
  bugtracker = "https://github.com/LaTeX-Package-Repositories/herries-press/issues",
  uploader = "LaTeX Project",

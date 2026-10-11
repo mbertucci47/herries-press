@@ -16,8 +16,13 @@ typesetruns = 4
 typesetexe = "lualatex"
 
 announce = {}
+<<<<<<< Updated upstream
 announce["2026/10/05 v1.1b"] = [[
 Tag documentation; update maintainer to LaTeX Project
+=======
+announce[version] = [[
+Tag documentation; update maintainer to LaTeX Project Team
+>>>>>>> Stashed changes
 ]]
 
 uploadconfig = {
@@ -26,7 +31,7 @@ uploadconfig = {
   author       = "Peter R Wilson; LaTeX Project",
   license      = "lppl1.3c",
   summary      = "Provide sectioning information for package writers",
-  ctanPath     = "/macros/latex/contrib/stdclsdv",
+  ctanPath     = "/macros/latex/contrib/"..module,
   repository   = "https://github.com/LaTeX-Package-Repositories/herries-press",
   bugtracker   = "https://github.com/LaTeX-Package-Repositories/herries-press/issues",
   uploader     = "LaTeX Project",

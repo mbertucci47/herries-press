@@ -1,9 +1,9 @@
 --[=========================[--
-   L3BUILD FILE FOR CONTINUE
+   L3BUILD FILE FOR ABSTRACT
 --]=========================]--
 
-module  = "continue"
-version = "2026-10-05 v0.2a"
+module  = "abstract"
+version = "2026-10-10 v1.2b"
 pkgdate = "2026/10/06"
 copyrightyear = "2026"
 
@@ -16,21 +16,16 @@ typesetruns = 4
 typesetexe = "lualatex"
 
 announce = {}
-<<<<<<< Updated upstream
-announce["2026-10-05 v0.2a"] = [[
-Remove deprecated picture package; tag documentation; update maintainer to LaTeX Project
-=======
 announce[version] = [[
-Remove deprecated picture package; tag documentation; update maintainer to LaTeX Project Team
->>>>>>> Stashed changes
+Tag documentation; new maintainer (LaTeX Project)
 ]]
 
 uploadconfig = {
   pkg          = "continue",
   version      = version,
-  author       = "Peter R Wilson; Donald Arseneau; Luca Merciadri; Will Robertson; LaTeX Project",
+  author       = "Peter R Wilson; LaTeX Project",
   license      = "lppl1.3c",
-  summary      = "Prints ‘continuation’ marks on pages of multipage documents",
+  summary      = "Control the typesetting of the abstract environment",
   ctanPath     = "/macros/latex/contrib/"..module,
   repository   = "https://github.com/LaTeX-Package-Repositories/herries-press",
   bugtracker   = "https://github.com/LaTeX-Package-Repositories/herries-press/issues",
@@ -39,7 +34,7 @@ uploadconfig = {
   update       = true,
   announcement = announce[version],
   description  = [[
-    This package provides for a variety of continuation indicators on pages when the text continues on the following page. The default is to only mark odd pages, but all pages can be marked and the marking can be stopped or started at any point.
+    The abstract package gives you control over the typesetting of the abstract environment, and in particular provides for a one column abstract in a two column paper.
   ]]
 }
 
