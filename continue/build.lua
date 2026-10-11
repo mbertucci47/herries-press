@@ -16,13 +16,8 @@ typesetruns = 4
 typesetexe = "lualatex"
 
 announce = {}
-<<<<<<< Updated upstream
-announce["2026-10-05 v0.2a"] = [[
-Remove deprecated picture package; tag documentation; update maintainer to LaTeX Project
-=======
 announce[version] = [[
 Remove deprecated picture package; tag documentation; update maintainer to LaTeX Project Team
->>>>>>> Stashed changes
 ]]
 
 uploadconfig = {

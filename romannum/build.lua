@@ -16,13 +16,8 @@ typesetruns = 4
 typesetexe = "lualatex"
 
 announce = {}
-<<<<<<< Updated upstream
-announce["2026-10-07 v1.0c"] = [[
-Fix gh/46; tag documentation; new maintainer (LaTeX Project)
-=======
 announce[version] = [[
 Fix gh/46; tag documentation; new maintainer (LaTeX Project Team)
->>>>>>> Stashed changes
 ]]
 
 uploadconfig = {
